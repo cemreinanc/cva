@@ -1,3 +1,5 @@
+import { twMerge } from "tailwind-merge";
+
 import type {
   ClassProp,
   ClassValue,
@@ -19,9 +21,7 @@ const falsyToString = <T extends unknown>(value: T) =>
 export type CxOptions = ClassValue[];
 export type CxReturn = string;
 
-export const cx = <T extends CxOptions>(...classes: T): CxReturn =>
-  // @ts-ignore
-  classes.flat(Infinity).filter(Boolean).join(" ");
+export const cx = twMerge;
 
 /* cva
   ============================================ */
