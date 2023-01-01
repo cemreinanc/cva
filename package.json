@@ -1,7 +1,7 @@
 {
-  "name": "class-variance-authority",
+  "name": "tw-cva",
   "version": "0.4.0",
-  "description": "Class Variance Authority 🧬",
+  "description": "Class Variance Authority 🧬 with Tailwind Merge",
   "author": "Joe Bell (https://joebell.co.uk)",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -20,7 +20,9 @@
     "class-variance-authority",
     "Class Variance Authority",
     "stitches",
-    "vanilla-extract"
+    "vanilla-extract",
+    "tailwindcss",
+    "tailwind"
   ],
   "files": [
     "dist/*.js",
